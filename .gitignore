@@ -1,0 +1,13 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Env files (sekrety)
+.env
+.env.*
+
+.idea/
