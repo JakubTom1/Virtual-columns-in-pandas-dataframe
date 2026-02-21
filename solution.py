@@ -9,7 +9,7 @@ def add_virtual_column(df: pd.DataFrame, role: str, new_column: str) -> pd.DataF
     """
     Add a virtual column to a dataframe
     :param df: The input pandas DataFrame.
-    :param role: The mathematical expression to compute (e.g., 'col1 + col2').
+    :param role: The mathematical expression to compute (e.g., 'col_one + col_two').
     :param new_column: The name of the new column to be added.
     :return: A new DataFrame with the added column, or an empty DataFrame if validation fails.
     """
